@@ -32,7 +32,7 @@ class WebBrowser(QMainWindow):
         self.layout.addLayout(self.horizontal)
         self.layout.addWidget(self.browser)
 
-        self.browser.setUrl(QUrl("http://aniwatch.to"))  
+        self.browser.setUrl(QUrl("http://google.com"))  
         self.window.setLayout(self.layout)
         self.setCentralWidget(self.window)
 
